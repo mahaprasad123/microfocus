@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LaunchModes</string>
+    <string name="auth">Authenticate with fingerprint</string>
+    <string name="dialogTitle">Success</string>
+    <string name="dialogMessage">Employee data is saved successfully</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="form_title">Resistration</string>
+    <string name="data_access">Access Data</string>
+</resources>

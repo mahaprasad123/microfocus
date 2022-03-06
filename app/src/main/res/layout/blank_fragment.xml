@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login"
+    tools:context=".fragments.FormFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter Name"
+            android:textColor="@color/white"
+            android:inputType="textPersonName"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/empid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:textColor="@color/white"
+            android:hint="Enter Employee ID"
+            android:inputType="number"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:textColor="@color/white"
+            android:hint="Enter Mail Id"
+            android:inputType="textEmailAddress"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:autofillHints="password"
+            android:ems="10"
+            android:textColor="@color/white"
+            android:hint="Enter Password"
+            android:inputType="textPassword"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textAllCaps="false"
+            android:text="Submit" />
+    </LinearLayout>
+</LinearLayout>
